@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingTop="70dp"
+    tools:context=".VerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/verTxtDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/verTxtDireccionReal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textColor="#474b4e"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btnFoto"
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_marginTop="30dp"
+            android:background="#cdcdcd"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_camara" />
+
+        <Button
+            android:id="@+id/btnVisitar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Visitar" />
+    </LinearLayout>
+</LinearLayout>

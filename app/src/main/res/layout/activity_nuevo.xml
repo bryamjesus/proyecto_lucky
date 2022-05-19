@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="40dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="40dp"
+    tools:context=".NuevoActivity">
+
+    <EditText
+        android:id="@+id/createTxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:hint="@string/create_name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#6C6C6C" />
+
+    <EditText
+        android:id="@+id/createTxtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:hint="@string/create_surname"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#6C6C6C" />
+
+    <EditText
+        android:id="@+id/createTxtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/create_phone"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#6C6C6C" />
+
+    <EditText
+        android:id="@+id/createTxtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:ems="10"
+        android:hint="@string/create_correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#6C6C6C" />
+
+    <EditText
+        android:id="@+id/createTxtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="@string/create_password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#6C6C6C" />
+
+    <Button
+        android:id="@+id/createBtnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/create_btn_guardar" />
+</LinearLayout>
